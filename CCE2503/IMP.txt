@@ -29,9 +29,6 @@ ax.plot3D(xx, yy, zz, 'ro', label='Path Points')  # Plot points on the path
 ax.scatter([xx[0]], [yy[0]], [zz[0]], c='green', s=100, label='Start')
 ax.scatter([xx[-1]], [yy[-1]], [zz[-1]], c='red', s=100, label='End')
 
-
-CODE FOR Q3, MODIFIED WITH INSPIRATION FROM Q1. TRY USING THE SAME WIREFRAME PLOTTING FOR ALL QUESTIONS. SAVE ORIGINAL CODE JUST IN CASE.
-
 # Set view angle (similar to your example)
 ax.view_init(65, -40)  # elevation, azimuth
 
@@ -43,3 +40,7 @@ ax.legend()
 
 # Show the plot
 plt.show()
+
+
+CODE FOR Q3, MODIFIED WITH INSPIRATION FROM Q1. TRY USING THE SAME WIREFRAME PLOTTING FOR ALL QUESTIONS. SAVE ORIGINAL CODE JUST IN CASE.
+
