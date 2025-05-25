@@ -10,5 +10,5 @@ def findLargest(arr):
         return tail
     
 
-arr = []
+arr = [3,3,3,6,3,3,3,3]
 print(f"Largest number: {findLargest(arr)}")
