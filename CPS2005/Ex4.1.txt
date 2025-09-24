@@ -1,0 +1,13 @@
+1. The language of all strings starting with a
+2. The language of all strings starting with b
+3. The language of all strings ending with bb
+4. containing 'aa'
+5. Starting with either a or b. This excludes the empty string.
+6. Starting with a and b. This is the empty set.
+7. not containing a
+8. contain at least three b's
+9. not starting with a
+10 The language containing only the empty string (epsilon)
+
+Infinite: 1,2,3,4,5,7,8,9
+Finite: 6,10
