@@ -1,0 +1,12 @@
+1. let q1 x = x * 10;;. The type is an int.
+2. let q2 x y = if x <> 0 && y <> 0 then true else false;;. The type is a bool.
+3. let rec q3 n = if n = 1 then n else n + q3(n-1);;. The type is an int.
+4. let rec power x n = if n = 0 then 1 else x * power x (n-1);;. The type is an int.
+5. let isconsonant c = if (Char.code c >= 97 && Char.code c <= 122) then if c = 'a' || c = 'e' || c = 'i' || c = 'o'|| c = 'u' then false else true
+
+else false;;. The type is a bool.
+6. 4 -  The first let x=1 is unused. 
+7. let rec factorial a = if a < 0 then failwith "No negatives allowed" else if a = 0 then 1 else  a * factorial (a - 1);; 
+
+This code properly handles negatives and zero. I hope using failwith is not cheating!
+
