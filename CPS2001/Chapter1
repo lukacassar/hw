@@ -1,0 +1,42 @@
+1.
+int = 17
+int = 11
+int = 1
+bool = true
+bool = false
+bool = true
+bool = false
+bool = false
+char = %
+error, expects int. Must add Char.code to both, which would eval to int = 195
+
+2.
+Mod operator takes precedence over the + operator, with Brackets still being the highest precedence.
+
+3.
+This evaluates to int = 11. By the lack of spaces surroundoing the + operator, it can be assumed that the programmer wanted to and should have written (1+2) * (3+4), which evaluates to int = 21. Remember BIDMAS.
+
+4.
+max_int + 1:
+the number increases by 1 however now it becomes negative.
+min_int - 1:
+the number decreases by 1 however now it becomes positive.
+
+5.
+Exception: Division_by_zero.
+dividing by zero is not defined in mathematics.
+
+6.
+When both operands are negative, same procedure as if they were positive. Answer will be in negative or zero.
+First positive: Negative or zero
+Second Positive: Positive or zero
+
+First zero: result will always be 0 as dividing 0 by anything results in 0, leaving no remainder.
+Second zero: same as 5.
+
+7.
+Enhances clarity and optimises memory usage.
+
+8.
+Takes the Char.code value and compares the two numbers. The example evaluates to true, as q has a higher ASCII numerical index than p
+On boolean operators, it treats false as 0 and true as 1 for comparison.
