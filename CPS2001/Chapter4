@@ -1,0 +1,42 @@
+1.
+let rec evens l =
+match l with
+_::a::t -> a :: evens t
+| _ -> [];;
+
+'a list -> 'a list
+
+2. 
+let rec count_true l = 
+match l with
+[] -> 0
+| true :: t -> 1 + count_true t
+| false :: t -> count_true t;;
+
+let rec count_true_helper l n = 
+match l with
+[] -> n
+| true :: t ->  count_true t (n+1)
+| false :: t -> count_true t n;;
+
+let count_true l = count_true_helper l 0;;
+
+3.
+let make_palindrome l = l @ rev l;;
+let ispalindrome l = l = rev l;;
+
+4. 
+let rec droplast l =
+match l with
+[] -> []
+| [a] -> []
+| h::t -> h :: droplast t;;
+
+let rec droplast_helper l n =
+match l with
+[] -> []
+| [a] -> rev n
+| h::t -> droplast_helper t (h::n);;
+
+let droplast l = droplast_helper l [];;
+
