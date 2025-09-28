@@ -40,3 +40,25 @@ match l with
 
 let droplast l = droplast_helper l [];;
 
+5. 
+let rec member x l = 
+match l with
+[] -> false
+| h::t -> if h = x then true else member x t;;
+
+6.
+let rec make_set l =
+match l with
+[] -> []
+| h::t -> let ll = make_set t in 
+if member h ll then 
+ll else 
+h::ll;;
+
+7.
+let rec rev_helper l acc = 
+match l with
+[] -> acc
+| h::t -> rev_helper t (h::acc);;
+
+let rev l = rev_helper l [];; 
