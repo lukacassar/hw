@@ -1,0 +1,9 @@
+L1 is the set of all strings which contain a 'b' (b, ab, bb)
+L2 is the set of all strings with length 3 or greater (aba, bbbb, abababababababab)
+L3 is the set of all strings which contain exactly 4 a's (aaaa, baabaa, abbaaba)
+L4 is the set of all strings which contain ONLY the string 'ab' occurring two or more times (abab, ababab, ababab)
+L5 is the set of all strings which start and end with an 'a' and that have a string in the middle containing a 'b' (aba, abba, abbbbbbbbbba)
+L6 is the set of all strings which contain ONLY the string 'aab' occurring at least once (aab, aabaab, aabaabaab)
+L7 is the set of all strings which start with 'aa' and have at least one 'b' after. (aabb, aabbb, aabbbbbbbbbbbbb)
+L8 is the set of all strings with the length being equal to the length of the string, filtering out 'b'. Essentially a string of only 'a's
+L9 is the set of all strings where the length is greater than or equal to the length of the string, filtering out 'b'
